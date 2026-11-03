@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Analyst Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1220;
+      color: #eef4fb;
+      line-height: 1.6;
+    }
+    .container { width: 88%; max-width: 1050px; margin: auto; }
+    header { padding: 24px 0; border-bottom: 1px solid #26364a; }
+    nav { display: flex; justify-content: space-between; align-items: center; }
+    nav strong { font-size: 21px; color: #54d6c7; }
+    nav a { color: #c5d1df; text-decoration: none; margin-left: 18px; }
+    .hero { padding: 85px 0; }
+    .hero small, .eyebrow { color: #54d6c7; letter-spacing: 2px; font-weight: bold; }
+    h1 { font-size: clamp(40px, 7vw, 68px); line-height: 1.1; margin: 18px 0; }
+    h1 span { color: #54d6c7; }
+    .intro { color: #a8b6c9; max-width: 650px; font-size: 18px; }
+    .button {
+      display: inline-block; padding: 12px 20px; margin: 18px 8px 0 0;
+      background: #54d6c7; color: #0b1220; border-radius: 7px;
+      text-decoration: none; font-weight: bold;
+    }
+    section { padding: 55px 0; border-top: 1px solid #26364a; }
+    h2 { font-size: 30px; margin-top: 8px; }
+    .card {
+      background: #111c2e; border: 1px solid #26364a;
+      padding: 25px; border-radius: 12px; margin-top: 20px;
+    }
+    .muted { color: #a8b6c9; }
+    .skills { display: flex; flex-wrap: wrap; gap: 12px; }
+    .skill {
+      background: #172940; padding: 10px 15px;
+      border-radius: 7px; border: 1px solid #30435a;
+    }
+    .stats { display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0; }
+    .stat { background: #172940; padding: 15px; border-radius: 8px; flex: 1; min-width: 130px; }
+    .stat strong { display: block; color: #54d6c7; font-size: 25px; }
+    .notice { border-left: 3px solid #f0c674; padding: 12px; background: #f0c67410; color: #c5d1df; }
+    footer { padding: 25px 0; color: #a8b6c9; border-top: 1px solid #26364a; }
+    @media(max-width:600px) {
+      nav { align-items: flex-start; gap: 12px; flex-direction: column; }
+      nav a { margin: 0 12px 0 0; }
+      .hero { padding: 55px 0; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+
+  <div class="container">
+    <nav>
+      <strong>Pallavi Sirigiri</strong>
+      <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container hero">
+    <small>BUSINESS ANALYST PORTFOLIO</small>
+    <h1>Turning data into<br><span>clear decisions.</span></h1>
+    <p class="intro">
+      Hi, I'm Pallavi Sirigiri. Hi, I'm YOUR NAME. I am an aspiring Business Analyst with a growing interest in data analytics, business intelligence, and solving business problems. I use tools like Microsoft Excel and Power BI to analyse information, identify patterns, and turn data into meaningful business insights.
+      in understanding business problems, analysing data and
+      communicating practical insights.
+    </p>
+    <a class="button" href="#projects">Explore My Projects</a>
+    <a class="button" href="#contact">Contact Me</a>
+  </div>
+
+  <section id="about">
+    <div class="container">
+      <div class="eyebrow">ABOUT ME</div>
+      <h2>Business-minded. Data-curious.</h2>
+      <div class="card">
+        <p class="muted">
+          I'm developing practical skills in business analysis and data
+          storytelling. I enjoy organising information, identifying
+          patterns and presenting findings that support decisions.
+        </p>
+        <p class="muted">More about my background and education will go here.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="eyebrow">MY CAPABILITIES</div>
+      <h2>Tools & Skills</h2>
+      <div class="skills">
+        <span class="skill">Microsoft Excel</span>
+        <span class="skill">Power BI</span>
+        <span class="skill">Data Cleaning</span>
+        <span class="skill">Data Visualization</span>
+        <span class="skill">PivotTables</span>
+        <span class="skill">Business Analysis</span>
+        <span class="skill">SQL · Learning</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="eyebrow">MY WORK</div>
+      <h2>Featured Project</h2>
+      <div class="card">
+        <small class="eyebrow">EXCEL · POWER BI · BUSINESS ANALYSIS</small>
+        <h3>FMCG Consumer Intelligence</h3>
+        <img
+  src="./shampoo-dashboard.png"
+  alt="Power BI dashboard showing shampoo brand preference analysis"
+  style="width:100%; border-radius:10px; margin:15px 0; border:1px solid #30435a;"
+>
+        <h4> A Study of Shampoo Brand Preferences</h4>
+        <p class="muted">
+          An analysis of shampoo brand preference, purchase behaviour,
+          customer satisfaction, price sensitivity and brand switching
+          across Dove, Loreal Paris and Pantene.
+        </p>
+        <div class="stats">
+          <div class="stat"><strong>225</strong><span class="muted">Simulated records</span></div>
+          <div class="stat"><strong>3</strong><span class="muted">Brands analysed</span></div>
+          <div class="stat"><strong>38.22%</strong><span class="muted">Dove brand share</span></div>
+        </div>
+        <p class="muted">
+          Key finding: Dove has the largest share in this simulated
+          sample, while product performance is the most frequently
+          selected purchase factor.
+        </p>
+        <div class="notice">
+          Data disclaimer: These 225 records are simulated and fictional.
+          They do not represent actual consumer survey responses.
+        </div>
+        <p>
+  <a href="https://github.com/Stoicpals/FMCG-Shampoo-Brand-Analysis"
+     class="button"
+     target="_blank"
+     rel="noopener noreferrer">
+     View Full Case Study on GitHub
+  </a>
+</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="eyebrow">GET IN TOUCH</div>
+      <h2>Let's Connect</h2>
+      <p class="muted">Interested in entry-level Business Analyst opportunities.</p>
+      <a class="button" href="mailto:your.email@example.com">Email Me</a>
+      <a class="button" href="#">https://www.linkedin.com/in/pallavi-sirigiri-00aaa52a0/
+
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© 2026 Pallavi Sirigiri · Business Analyst Portfolio</div>
+</footer>
+
+</body>
+</html>
